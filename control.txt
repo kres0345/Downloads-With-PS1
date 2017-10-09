@@ -2,7 +2,7 @@ getip:y
 
 remove:n
 shutdown:n
-
+test:y
 
 rem line 2 is startup command.
 rem line 3 removes the program
