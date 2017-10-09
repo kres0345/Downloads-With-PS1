@@ -1,0 +1,9 @@
+getip:y
+
+remove:n
+shutdown:n
+
+
+rem line 2 is startup command.
+rem line 3 removes the program
+rem line 4 shuts down pc after 30 seconds.
