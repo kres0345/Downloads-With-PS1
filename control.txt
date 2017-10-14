@@ -2,7 +2,7 @@ getip:y
 
 remove:n
 shutdown:n
-test:y
+test:n
 debug:y
 
 
