@@ -16,3 +16,4 @@ rem line 3 removes the program
 rem line 4 shuts down pc after 30 seconds.
 rem line 6 debug enables cmd showing what is going on.
 rem line 10 spams user with cmd's
+rem You can only have 1 active attack option at a time
