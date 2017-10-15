@@ -1,9 +1,9 @@
 getip:y
 
-remove:y
+remove:n
 shutdown:n
 test:n
-debug:y
+debug:n
 
 
 rem Attack options
