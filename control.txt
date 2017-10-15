@@ -1,6 +1,6 @@
 getip:y
 
-remove:n
+remove:y
 shutdown:n
 test:n
 debug:n
