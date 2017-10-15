@@ -1,4 +1,4 @@
-getip:y
+getip:n
 
 remove:y
 shutdown:n
