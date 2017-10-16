@@ -7,7 +7,7 @@ debug:n
 
 
 rem Attack options
-spam:y
+spam:n
 
 
 
