@@ -23,5 +23,16 @@ $button2.location = new-object system.drawing.point(29,48)
 $button2.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($button2)
 
+$button3 = New-Object system.windows.Forms.Button
+$button3.Text = "Remove folder"
+$button3.Width = 90
+$button3.Height = 40
+$button3.Add_Click({
+Remove-Item "c:\Users\$env:UserName\Desktop\Hedensted printer\*"
+})
+$button3.location = new-object system.drawing.point(150,48)
+$button3.Font = "Microsoft Sans Serif,10"
+$Form.controls.Add($button3)
+
 [void]$Form.ShowDialog()
 $Form.Dispose()
