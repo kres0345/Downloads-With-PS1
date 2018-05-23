@@ -1,4 +1,3 @@
-$WebClient = New-Object System.Net.WebClient
-$WebClient.DownloadFile("https://wallpapertag.com/wallpaper/full/5/0/7/433393-gorgerous-my-little-pony-wallpaper-1920x1200-for-android-tablet.jpg","Wallpaper.jpg")
-Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value Wallpaper.jpg
+powershell Invoke-WebRequest -Uri "https://cdn.rawgit.com/kres0345/Downloads-With-PS1/master/mlp.jpg" -OutFile "Wallpaper.jpg"
+powershell Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value "Wallpaper.jpg"
 rundll32.exe user32.dll, UpdatePerUserSystemParameters 1, True
