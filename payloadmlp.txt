@@ -1,0 +1,5 @@
+powershell Invoke-WebRequest -Uri "https://cdn.rawgit.com/kres0345/Downloads-With-PS1/master/mlp.png" -OutFile "Wallpaper.png"
+timeout 2
+powershell Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value C:\Users\%username%\Wallpaper.png
+timeout 2
+rundll32.exe user32.dll, UpdatePerUserSystemParameters 1, True
